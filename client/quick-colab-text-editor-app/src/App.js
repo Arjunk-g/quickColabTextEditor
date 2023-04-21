@@ -1,7 +1,7 @@
-
+import TextEditor from "./TextEditor";
 
 function App() {
-  return "Hey"
+  return TextEditor();
 }
 
 export default App;
