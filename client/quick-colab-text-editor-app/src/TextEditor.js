@@ -7,7 +7,7 @@ export default function TextEditor() {
         if (wrapper == null) return
         wrapper.innerHTML = ""
         const editor = document.createElement('div')
-        wrapperRef.append(editor)
+        wrapper.append(editor)
         new Quill(editor, { theme: 'snow' })
          
 },
